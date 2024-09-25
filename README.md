@@ -48,7 +48,7 @@
 
 1. このリポジトリをクローン
 2. Android Studioでプロジェクトを開く
-3. 必要なAPIキーを設定（OpenAI API、Whisper APIなど）
+3. 必要なAPIキーを設定（OpenAI API、Github APIなど）,build.propertiesを編集してください。
 4. アプリをビルドしAndroidデバイスにインストール
 
 ### PC側
