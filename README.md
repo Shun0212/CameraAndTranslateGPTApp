@@ -66,7 +66,69 @@
 3. AndroidアプリでQRコードをスキャンし、データを送信
 
 
+This project is an Android application that leverages the GitHub repository search and OpenAI API, offering development support through an Android-specific interface.
 
-## 連絡先
+## Key Features
 
-[連絡先や問い合わせ方法をここに記載]
+### 1. GitHub Repository README Translation Feature
+- Search for repositories on GitHub
+- Use OpenAI API to translate the README into Japanese
+
+### 2. Image Recognition Function via Camera
+- Image recognition using the OpenAI API
+- Analyze based on specific prompts with multiple templates available
+
+### 3. ChatGPT Functionality
+- Q&A and conversations using the ChatGPT API
+
+### 4. Voice Recognition and Translation Feature
+- Record voice using the Android device's microphone
+- Convert speech to text using the Whisper API
+- Translate text with ChatGPT
+- Play back the translated text using Text-to-Speech (TTS)
+
+## PC Integration Feature
+
+### QR Code-Based PC Communication
+
+1. Start an HTTP server on the PC and generate a QR code
+2. Scan the QR code with the Android app
+3. Send data to the URL read from the QR code
+4. Process the data on the PC (e.g., display the URL or image, handle ChatGPT responses)
+
+## Project Structure
+
+- **Android App (master branch)**: 
+  - GitHub repository search and translation
+  - Camera functionality
+  - Voice recognition
+  - ChatGPT functionality
+
+- **PC-Side Program**:
+  - Communication via QR code
+  - Receiving and processing URLs or image data
+
+## Installation and Setup
+
+### Android App
+
+1. Clone this repository
+2. Open the project in Android Studio
+3. Set up the necessary API keys (OpenAI API, Whisper API, etc.)
+4. Build the app and install it on an Android device
+
+### PC-Side
+
+1. Install the required libraries:
+   ```bash
+   pip install flask qrcode[pil]
+   ```
+
+2. Start the server and generate the QR code:
+   ```bash
+   python app.py
+   ```
+
+3. Scan the QR code with the Android app and send the data
+
+
