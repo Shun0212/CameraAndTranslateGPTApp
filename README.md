@@ -32,13 +32,13 @@
 
 ## プロジェクトの構成
 
-- **Androidアプリ（masterブランチ）**: 
+- **Androidアプリ（masterブランチまたはAndroidボランチ）**: 
   - GitHubリポジトリの検索・翻訳
   - カメラ機能
   - 音声認識機能
   - ChatGPT機能
 
-- **PC側プログラム**:
+- **PC側プログラム　(masterまたはserverボランチ)**:
   - QRコードを介した通信機能
   - URLや画像データの受信・処理
 
