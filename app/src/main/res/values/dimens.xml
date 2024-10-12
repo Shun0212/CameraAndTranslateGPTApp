@@ -1,5 +1,0 @@
-<resources>
-      <dimen name="fab_margin">16dp</dimen>
-        <dimen name="chat_margin_large">16dp</dimen>
-        <dimen name="chat_margin_small">8dp</dimen>
-   </resources>
