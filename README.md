@@ -46,7 +46,7 @@
 
 ### Androidアプリ
 
-1. このリポジトリをクローン
+1. このリポジトリのAndroid branchをクローン(デフォルトでも構いませんが、サーバ用のフォルダ(Andserverも付随してきます）
 2. Android Studioでプロジェクトを開く
 3. 必要なAPIキーを設定（OpenAI API、Github APIなど）,gradle.propertiesを編集してください。
 4. アプリをビルドしAndroidデバイスにインストール
