@@ -1,7 +1,9 @@
 # ChatGPT APIを用いた翻訳機能、カメラ認識機能Androidアプリ
 
 このプロジェクトは、GitHubのリポジトリ検索やOpenAIのAPIを活用し、Androidならではのインターフェースを用いた開発支援を提供するアプリケーションです。
-
+以下は実際の画面です,
+![音声認識と翻訳機能](https://github.com/Shun0212/CameraAndTranslateGPTApp/blob/f8eadbe7e3ffd324caf924daced0d1d3ea7ba855/Screenshot_20240925-013203.png)
+![GitHubリポジトリの詳細画面](https://github.com/Shun0212/CameraAndTranslateGPTApp/blob/f8eadbe7e3ffd324caf924daced0d1d3ea7ba855/Screenshot_20240925-004004.png)
 ## 主な機能
 
 ### 1. GitHubリポジトリのREADME翻訳機能
