@@ -1,4 +1,4 @@
-# ChatGPT APIを用いたAndroidアプリ
+# ChatGPT APIを用いた翻訳機能、カメラ認識機能Androidアプリ
 
 このプロジェクトは、GitHubのリポジトリ検索やOpenAIのAPIを活用し、Androidならではのインターフェースを用いた開発支援を提供するアプリケーションです。
 
